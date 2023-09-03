@@ -1,0 +1,1 @@
+export const rootController = (req, res) => res.render("home", {pageTitle: "Home"});

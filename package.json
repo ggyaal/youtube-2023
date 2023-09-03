@@ -1,0 +1,20 @@
+{
+  "name": "ggyaaltube",
+  "version": "1.0.0",
+  "description": "youtube clone",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "ggyaal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/node": "^7.22.10",
+    "@babel/preset-env": "^7.22.14",
+    "nodemon": "^3.0.1"
+  }
+}
