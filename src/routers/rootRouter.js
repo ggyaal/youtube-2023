@@ -1,8 +1,11 @@
 import express from "express";
-import { rootController } from "../controllers/rootController";
+import { joinController, loginController, rootController } from "../controllers/rootController";
 
 const rootRouter = express.Router();
 
 rootRouter.route("/").get(rootController);
+
+rootRouter.route("/join").get(joinController);
+rootRouter.route("/login").get(loginController);
 
 export default rootRouter;

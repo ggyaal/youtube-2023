@@ -1,3 +1,4 @@
+import "./db";
 import express from "express";
 import rootRouter from "./routers/rootRouter";
 
@@ -10,4 +11,4 @@ app.set("views", process.cwd() + "/src/views/");
 
 app.use("/", rootRouter);
 
-app.listen(PORT, () => console.log("✅  Server Ready!"));
+app.listen(PORT, () => console.log("✅ Server Ready!"));
